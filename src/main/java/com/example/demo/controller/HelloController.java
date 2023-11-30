@@ -13,7 +13,7 @@ public class HelloController {
 
     @GetMapping("/test/{name}")
     public ResponseEntity<String> encryptToken(@PathVariable String name) {
-        return ResponseEntity.ok("Siema " + name + " mordo!");
+        return ResponseEntity.ok("Siemaaaa " + name + " mordo!");
     }
 
 }
